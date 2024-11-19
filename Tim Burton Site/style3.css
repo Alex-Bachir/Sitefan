@@ -1,0 +1,146 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  text-shadow: 4px 3px 9px white;
+}
+
+li1 img {
+  border: 3px solid pink;
+  display: flex;
+  width: 400px;
+}
+ul1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Photovideo {
+  display: flex;
+  width: 200px;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  background-color: gray;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  height: 90px;
+  width: 90px;
+}
+
+
+
+.timeline {
+  position: relative;
+  min-height: 811px;
+  overflow-y: hidden;
+}
+
+.timeline-item:before {
+  content: "";
+  position:absolute;
+  background-color: rgba(253, 253, 253, 0.585);
+  width: 3px;
+  height: 100%;
+  left: 351px;
+  z-index: 9;
+}
+
+.timeline-item {
+  margin: 0 74px;
+  margin-bottom: 50px;
+}
+
+.timeline-item-details-description {
+  padding: 16px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(114, 111, 111);
+  width: 400px;
+  border-radius: 4px;
+  margin-left: 285px;
+}
+
+.timeline-item-details-marker {
+  position: relative;
+  z-index: 10;
+  border-radius: 90%;
+  background-color: rgb(114, 111, 111);
+  width: 20px;
+  height: 20px;
+  margin-left: 269px;
+}
+
+body {
+  background-color: rgb(56, 53, 53);
+}
+
+.timeline-item-details-date {
+  color: white;
+  font-size: 1.6em;
+}
+
+.container {
+  max-width: 1224px;
+  width: 90%;
+  margin: auto;
+  padding: 40px;
+}
+
+.photo-gallery {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .photo-gallery {
+    flex-direction: column;
+  }
+}
+
+nav {
+  background-color: grey;
+  display: flex;
+  height: 45px;
+  text-align: center;
+  border-radius: 60px;
+
+  justify-content: space-around;
+}
+
+
+.nav {
+  color: aliceblue;
+  padding: 11px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba (0 0 0 0.2);
+  margin-bottom: 20px;
+  margin: 50px;
+}

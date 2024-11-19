@@ -1,0 +1,24 @@
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+
+    
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+
+img {
+    box-shadow: -8px -4px 11px 2px;
+}
+
+
+
